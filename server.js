@@ -4,8 +4,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // --- TELEGRAM CONFIG ---
-const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8724075511:AAFjhU_XRoSRaiMo9i3jUNdvjRLUebwRlCc";
-const TELEGRAM_ADMIN_ID  = process.env.TELEGRAM_ADMIN_ID  || "7162306402";
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8782964536:AAGfUfQdo84z3wziZZs8WGzRtXQ7XTSPfU4";
+const TELEGRAM_ADMIN_ID  = process.env.TELEGRAM_ADMIN_ID  || "6391938178";
 
 
 // Auto-detect base URL: Render sets RENDER_EXTERNAL_URL, Railway sets RAILWAY_STATIC_URL

